@@ -26,6 +26,7 @@ Apply these rules per the [CommonMark spec 0.31.2](https://spec.commonmark.org/0
 - **Link reference definitions**: `[label]: destination "title"`. Case-insensitive label matching (Unicode case fold). First definition wins for duplicate labels. Cannot interrupt a paragraph.
 - **Paragraphs**: Consecutive non-blank lines not interpretable as other block constructs. Leading spaces up to 3 are stripped.
 - **Blank lines**: Ignored between blocks; determine whether a list is tight or loose.
+- **Tables**: Format columns with aligned pipes and consistent cell padding so the raw Markdown stays well formatted and easy to edit by hand.
 
 ## Container Blocks
 
